@@ -58,5 +58,14 @@ There may be multiple reasons why the results could show a step distribution lik
 Unfortunately, these rules are not public (shame) and therefore it is not possible to assess with certainty what mechanism could have led to that distribution.
 My algorithm is just one of a possibly infinite class of algorithms generating votes stochastically.
 
+# Read more
+I later discovered that the algorithm presented here falls in the general category of urn problems.
+In particular, it is very similar to an Hopp urn.
+An Hopp urn is a type of Pólya urn.
+In a Pólya urn there are balls of different colors.
+Each time a ball is drawn, it is replaced in the urn along with another ball of the same color.
+In a Hoppe urn there is an additional ball called mutator.
+Every time a mutator is drawn, it is replaced with an additional ball of an entirely new colour.
+
 # License
 The code is released under whatever free license to do whatever you want with it.
